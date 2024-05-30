@@ -1,0 +1,51 @@
+@import url('./reset.css');
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid grey;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.product__img img{
+    max-width: 400px;
+    width: 100%;
+}
+
+.basket__inner {
+    width: 55px;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.basket__count {
+    position: absolute;
+    top: -6px;
+    right: -1px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    text-align: center;
+    min-width: 15px;
+}
+
+.home {
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
